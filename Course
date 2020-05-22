@@ -332,7 +332,7 @@ public class Course {
 
     private String mEstablishment;
 
-    public Museum(@Nullable String Title, String Establishment, int Grade, String creationDate) {
+    public Course(@Nullable String Title, String Establishment, int Grade, String creationDate) {
         mTitle = Title;
         mEstablishment = Establishment;
         mGrade = Grade;
